@@ -1,0 +1,170 @@
+#logo{
+    margin-left: 100px;
+    margin-top: 170px;
+}
+.main{
+    font-family:Helvetica, Arial, sans-serif;
+    background-color: ghostwhite;
+    margin-bottom:130px;
+    padding:0;
+
+}
+#description{
+    margin-left:130px;
+    margin-top:-13px;
+    font-size: 170%;
+    font-weight: lighter;
+}
+.card {
+    height: 330px;
+    width: 380px;
+    padding:15px 15px;
+    position:absolute;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-top: -250px;
+}
+
+.card input[type="text"],.card input[type="password"]{
+    background:white;
+    display:block;
+    margin: -3px auto;
+    border: 2px solid whitesmoke;
+    font-size: 110%;
+    padding: 14px 10px;
+    width:350px;
+    outline:none;
+    color:black;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.card input[type ="text"]:focus,.card input[type="password"]:focus{
+    border-color:royalblue;
+}
+
+.card input[type="submit"]{
+    border:0;
+    background:royalblue;
+    display:block;
+    margin: 1px auto;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    padding: 12px 10px;
+    width:380px;
+    outline:none;
+    color:white;
+    font-size: 140%;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.card input[type="submit"]:hover{
+    background:mediumblue;
+
+}
+.card h5{
+    color:dodgerblue;
+    text-align: center;
+    margin-top:-7px;
+    font-weight:lighter;
+}
+.card h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+#vtoroi{
+    position:absolute;
+    border:0;
+    background:limegreen;
+    display:block;
+    margin: 1px auto;
+    border: 2px solid whitesmoke;
+    padding: 12px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 10px;
+    transition: 0.25s;
+    margin-left: 800px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#vtoroi:hover{
+    background:forestgreen;
+}
+#sozdat{
+    margin-left: 550px;
+    margin-top: 120px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+#str:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#l{
+    position:absolute;
+    margin-left:150px;
+    margin-top:-70px;
+    font-family:calibri;
+    color:grey;
+    font-size: 92%;
+    margin-block-start: 20px;
+    margin-block-end: 32px;
+    font-weight: normal;
+}
+
+#plus{
+    position:absolute;
+    font-size:120%;
+    font-weight: bold;
+    margin-left:920px;
+    margin-top:17px;
+}
+#plus:hover{
+    cursor: pointer;
+}
+#linia{
+    margin-top:35px;
+    margin-left:150px;
+}
+#m{
+    margin-left:150px;
+    margin-top:-50px;
+    font-family:calibri;
+    color:grey;
+    font-size: 92%;
+    margin-block-start: 20px;
+    margin-block-end: 32px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#f{
+    margin-left: 150px;
+    margin-top: -1px;
+    font-family: calibri;
+    color: grey;
+    font-size: 92%;
+    margin-block-start: 20px;
+    margin-block-end: 32px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+
+
